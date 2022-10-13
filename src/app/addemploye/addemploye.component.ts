@@ -8,7 +8,31 @@ import { Component, OnInit } from '@angular/core';
 export class AddemployeComponent implements OnInit {
 
   constructor() { }
-
+  employeeCode=""
+  employeeName=""
+  employeeDesignation=""
+  employeeGender=""
+  companyName=""
+  salary=""
+  doj=""
+  companyAddress=""
+  mobileNumber=""
+  email=""
+  expericence=""
+  bloodGroup=""
+  dob=""
+readValues=()=>{
+  let data={
+    "employeeCode":this.employeeCode,
+    "employeeName":this.companyName,
+    "employeeDesignation":this.employeeDesignation,
+    "employeeGender":this.employeeGender,
+    "companyName":this.companyName,
+    "salary":this.salary,
+    "doj":this.doj,
+    
+  }
+}
   ngOnInit(): void {
   }
 
