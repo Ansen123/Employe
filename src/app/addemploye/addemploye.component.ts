@@ -30,8 +30,14 @@ readValues=()=>{
     "companyName":this.companyName,
     "salary":this.salary,
     "doj":this.doj,
-    
+    "companyAddress":this.companyAddress,
+    "mobileNumber":this.mobileNumber,
+    "mail":this.email,
+    "expericence":this.expericence,
+    "bloodGroup":this.bloodGroup,
+    "dob":this.dob
   }
+  console.log(data)
 }
   ngOnInit(): void {
   }
